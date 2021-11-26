@@ -166,7 +166,7 @@ input:-webkit-autofill:focus {
 .bttn-default,
 .bttn-white {
     padding: 12px 30px;
-    background-color: #990c1a;
+    background-color: #FB7445;
     display: inline-block;
     color: #000000;
     text-transform: uppercase;
@@ -294,7 +294,7 @@ input:-webkit-autofill:focus {
     width: 100%;
     z-index: 9999;
     padding: 20px 140px 15px 0;
-    background: red;
+    background: #393939;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -379,7 +379,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area .navbar-brand img {
-    height: 40px;
+    height: 70px;
 }
 
 /*-- 6. Page-Title --*/
@@ -410,7 +410,7 @@ input:-webkit-autofill:focus {
 
 .home-area {
     width: 100%;
-    background-color: red;
+    background-color: #393939;
     padding-top: 26vh;
     color: #ffffff;
     margin-bottom: 100px;
@@ -472,7 +472,7 @@ input:-webkit-autofill:focus {
 
 .feature-area {
     color: #ffffff;
-    background-color: red;
+    background-color: #393939;
     background-image: url('images/feature-bg.png');
     background-position: bottom -120px center;
     background-repeat: no-repeat;
@@ -701,7 +701,7 @@ input:-webkit-autofill:focus {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: red;
+    background-color: #393939;
     margin-top: 70px;
     margin-bottom: 100px;
     color: #ffffff;
@@ -934,7 +934,7 @@ input:-webkit-autofill:focus {
     background: rgb(72, 44, 191);
     /* Old browsers */
     /* FF3.6-15 */
-     background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+     background:  rgb(251, 116, 69) 0%;
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     border-radius: 100%;
@@ -970,8 +970,11 @@ input:-webkit-autofill:focus {
 
 .footer-bottom {
     padding: 20px 0;
-    background-color: #f5f6ff;
-    border-top: 1px solid #5e88fc;
+    background-color: #393939;
+    
+}
+.copyright{
+    color: white;
 }
 
 .footer-bottom .footer-menu ul {
